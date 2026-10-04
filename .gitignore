@@ -9,3 +9,8 @@ venv/
 !.streamlit/config.toml
 .DS_Store
 context.md
+
+# Notas de escopo do Integrante A: não sobem para o remoto. Ignorado por
+# arquivo, e não a pasta docs/ inteira, para que outros documentos que ele
+# venha a escrever não sumam em silêncio.
+docs/participante-a.md

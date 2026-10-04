@@ -1,0 +1,12 @@
+# Base escura nativa: faz os widgets do próprio Streamlit (selectbox, sliders,
+# editor de tabela) nascerem no tom certo. O resto da identidade visual vem do
+# CSS em src/theme.py.
+[theme]
+base = "dark"
+primaryColor = "#F0B429"
+backgroundColor = "#0A0C10"
+secondaryBackgroundColor = "#11151C"
+textColor = "#E8E4DA"
+
+[browser]
+gatherUsageStats = false

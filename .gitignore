@@ -2,6 +2,10 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-.streamlit/
+# O tema do app é código, não configuração local — vai pro repositório.
+# (Precisa ser `.streamlit/*` e não `.streamlit/`: o git não reinclui arquivo
+# dentro de diretório excluído.)
+.streamlit/*
+!.streamlit/config.toml
 .DS_Store
 context.md

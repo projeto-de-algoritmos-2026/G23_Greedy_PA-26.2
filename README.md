@@ -1,4 +1,4 @@
-# Quadro de Despachos
+# Greedy Race
 
 Número da Lista: 23<br>
 Conteúdo da Disciplina: Greedy (Algoritmos Gulosos)<br>
@@ -12,7 +12,7 @@ Conteúdo da Disciplina: Greedy (Algoritmos Gulosos)<br>
 
 ## Sobre
 
-O Quadro de Despachos é uma aplicação gráfica educativa em Python/Streamlit que compara três estratégias gulosas para o **escalonamento de tarefas em uma única máquina, sem preempção, minimizando o maior atraso (L_max)**. O usuário escolhe uma instância (preset, aleatória ou manual) e acompanha, lado a lado, como cada estratégia decide a ordem de despacho e o que isso custa em atraso.
+O Greedy é uma aplicação gráfica educativa em Python/Streamlit que compara três estratégias gulosas para o **escalonamento de tarefas em uma única máquina, sem preempção, minimizando o maior atraso (L_max)**. O usuário escolhe uma instância (preset, aleatória ou manual) e acompanha, lado a lado, como cada estratégia decide a ordem de despacho e o que isso custa em atraso.
 
 O objetivo é mostrar que, embora as três estratégias tenham o mesmo custo computacional, apenas o **critério de ordenação** separa a solução ótima das heurísticas que falham. Uma tarefa curta pode "furar a fila" de uma tarefa longa com prazo apertado — e só uma das três ordens garante nunca perder para nenhuma outra.
 

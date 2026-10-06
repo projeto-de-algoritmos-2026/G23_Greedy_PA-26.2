@@ -47,20 +47,22 @@ Como não há ociosidade, toda ordem termina no mesmo instante (`Σ t_i`); a ord
 
 <table>
   <tr>
-    <td align="center"><img src="assets/screenshots/quadro.png" width="420" alt="Aba O quadro, com o cronograma das três estratégias"><br>O quadro</td>
-    <td align="center"><img src="assets/screenshots/placar.png" width="420" alt="Placar comparativo com o L_max de cada estratégia"><br>Placar comparativo</td>
+    <td align="center"><a href="assets/screenshots/quadro-sjf.png"><img src="assets/screenshots/quadro-sjf.png" width="420" alt="Preset 1: EDF e Slack sem atraso; SJF com atraso máximo 1"><br>Preset 1 — Falha do SJF</a></td>
+    <td align="center"><a href="assets/screenshots/quadro-slack.png"><img src="assets/screenshots/quadro-slack.png" width="420" alt="Preset 2: EDF e SJF com atraso máximo 1; Slack com atraso máximo 9"><br>Preset 2 — Falha do Slack</a></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/screenshots/passo-a-passo.png" width="420" alt="Aba Passo a passo, narrando a decisão gulosa de cada estratégia"><br>Passo a passo</td>
-    <td align="center"><img src="assets/screenshots/laboratorio.png" width="420" alt="Laboratório da prova, com trocas de pares invertidos"><br>Laboratório da prova</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/screenshots/teoria.png" width="420" alt="Aba Teoria, com o enunciado e a prova por troca de inversões"><br>Teoria</td>
-    <td align="center"><img src="assets/screenshots/sidebar.png" width="420" alt="Painel lateral com presets, gerador aleatório e tabela manual"><br>Painel de controle</td>
+    <td align="center"><a href="assets/screenshots/passo-a-passo.png"><img src="assets/screenshots/passo-a-passo.png" width="420" alt="Passo a passo do Preset 2, com tempos e atrasos de cada estratégia"><br>Passo a passo</a></td>
+    <td align="center"><a href="assets/screenshots/laboratorio.png"><img src="assets/screenshots/laboratorio.png" width="420" alt="Laboratório da prova com uma inversão de prazos e atraso máximo 9 antes da troca"><br>Laboratório da prova</a></td>
   </tr>
 </table>
 
-> As imagens acima ainda não existem em `assets/screenshots/`. Rode a aplicação (veja [Instalação](#instalação)) e capture cada aba com esses nomes de arquivo.
+Clique nas imagens para visualizar as capturas em tamanho completo. Os presets mostram que SJF e Slack podem falhar, enquanto o laboratório permite remover inversões sem aumentar o atraso máximo.
+
+## 🎥 Apresentação do Projeto
+
+[![Apresentação do Greedy Race](https://img.youtube.com/vi/gJZ_b7ayi_4/hqdefault.jpg)](https://youtu.be/gJZ_b7ayi_4)
+
+[Assista à apresentação no YouTube](https://youtu.be/gJZ_b7ayi_4) para acompanhar a explicação dos algoritmos e a demonstração da aplicação.
 
 ## Instalação
 

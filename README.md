@@ -50,10 +50,6 @@ Como não há ociosidade, toda ordem termina no mesmo instante (`Σ t_i`); a ord
     <td align="center"><a href="assets/screenshots/quadro-sjf.png"><img src="assets/screenshots/quadro-sjf.png" width="420" alt="Preset 1: EDF e Slack sem atraso; SJF com atraso máximo 1"><br>Preset 1 — Falha do SJF</a></td>
     <td align="center"><a href="assets/screenshots/quadro-slack.png"><img src="assets/screenshots/quadro-slack.png" width="420" alt="Preset 2: EDF e SJF com atraso máximo 1; Slack com atraso máximo 9"><br>Preset 2 — Falha do Slack</a></td>
   </tr>
-  <tr>
-    <td align="center"><a href="assets/screenshots/passo-a-passo.png"><img src="assets/screenshots/passo-a-passo.png" width="420" alt="Passo a passo do Preset 2, com tempos e atrasos de cada estratégia"><br>Passo a passo</a></td>
-    <td align="center"><a href="assets/screenshots/laboratorio.png"><img src="assets/screenshots/laboratorio.png" width="420" alt="Laboratório da prova com uma inversão de prazos e atraso máximo 9 antes da troca"><br>Laboratório da prova</a></td>
-  </tr>
 </table>
 
 ### Cenário ideal — EDF e heurísticas sem atraso
@@ -62,7 +58,7 @@ Como não há ociosidade, toda ordem termina no mesmo instante (`Σ t_i`); a ord
 
 No Preset 3, as três estratégias produzem a mesma ordem e cumprem todos os prazos (`L_max = 0`). O EDF executa as tarefas por prazo crescente: J1, J2 e J3. Esse empate vale para esta instância; os presets anteriores mostram que SJF e Slack podem falhar em outros casos.
 
-Clique nas imagens para visualizar as capturas em tamanho completo. Os presets mostram que SJF e Slack podem falhar, enquanto o laboratório permite remover inversões sem aumentar o atraso máximo.
+Clique nas imagens para visualizar as capturas em tamanho completo. Os dois primeiros presets mostram as falhas de SJF e Slack; o terceiro apresenta um cenário em que as três estratégias cumprem os prazos.
 
 ## 🎥 Apresentação do Projeto
 

@@ -56,6 +56,12 @@ Como não há ociosidade, toda ordem termina no mesmo instante (`Σ t_i`); a ord
   </tr>
 </table>
 
+### Cenário ideal — EDF e heurísticas sem atraso
+
+[![Preset 3: EDF, SJF e Slack executam J1, J2 e J3 com atraso máximo zero](assets/screenshots/quadro-ideal.png)](assets/screenshots/quadro-ideal.png)
+
+No Preset 3, as três estratégias produzem a mesma ordem e cumprem todos os prazos (`L_max = 0`). O EDF executa as tarefas por prazo crescente: J1, J2 e J3. Esse empate vale para esta instância; os presets anteriores mostram que SJF e Slack podem falhar em outros casos.
+
 Clique nas imagens para visualizar as capturas em tamanho completo. Os presets mostram que SJF e Slack podem falhar, enquanto o laboratório permite remover inversões sem aumentar o atraso máximo.
 
 ## 🎥 Apresentação do Projeto
